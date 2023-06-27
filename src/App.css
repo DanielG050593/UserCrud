@@ -1,0 +1,27 @@
+label, input,button{
+    font-size: 1.3rem;
+}
+
+.card__container{
+    padding: 2em;
+    padding-top:  1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    max-width: 100%;
+    gap: 1rem;
+    margin: 0 auto;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 2em;
+}
+.btn__crear{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    color: white;
+    border: 0;
+    background-color: rgb(93, 93, 182);
+
+}

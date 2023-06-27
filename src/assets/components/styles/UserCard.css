@@ -1,0 +1,22 @@
+
+
+.div__cont{
+   
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    padding: 1em;
+   
+}
+.name{
+    display: flex;
+    justify-content: center;
+}
+.btns{
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.4em;
+}
+.trsh {
+    color: white;
+    background-color: rgb(206, 108, 108);
+}
